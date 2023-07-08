@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/style.css">
+  <!-- Font Awsome CDN -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
+  />
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+  <div class="container">
+    <section class="about-section">
+      <h1 class="title">Learn to code by watching others</h1>
+      <p class="about">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </section>
+    <section class="trial-section">
+      <div class="trial-card"> <span class="bold">Try it free 7 days</span>  then $20/mo. thereafter</div>
+      <div class="trial-form" id="trial-form">
+        <!-- inputs -->
+        <div class="input-field">
+          <img src="./images/icon-error.svg" alt="" class="icon-error" >
+          <input type="text" name="first name" id="first-name" placeholder="First Name">
+          <span class="alert">First Name cannot be empty</span>
+        </div>
+        <div class="input-field">
+          <img src="./images/icon-error.svg" alt="" class="icon-error" >
+          <input type="text" name="last name" id="last-name" placeholder="Last Name" >
+          <span class="alert">Last Name cannot be empty</span>
+        </div>
+        <div class="input-field">
+          <img src="./images/icon-error.svg" alt="" class="icon-error" >
+          <input type="email" name="email adress" id="email" placeholder="Email Adress" >
+          <span class="alert">Email Address cannot be empty</span>
+        </div>
+        <div class="input-field">
+          <img src="./images/icon-error.svg" alt="" class="icon-error" >
+          <input type="password" name="password" id="password" placeholder="Password" >
+          <span class="alert">Password cannot be empty</span>
+        </div>
+        <!-- end of inputs -->
+
+        <button type="submit" class="btn" id="btn">claim yout free trail</button>
+        <p class="terms">
+          By clicking the button, you are agreeing to our 
+          <a href="#" alt="Terms and Services" class="red-text">Terms and Services</a>
+        </p>
+      </div>
+    </section>
+  </div>
+  
+  <footer class="footer">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/madalina1teaca">Madalina T.</a>.
+    </p>
+  </footer>
+  <script src="src/index.js"></script>
+</body>
+</html>
