@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Web View](./screenshots/screenshot1.jpg)
-![Web View - ERROR_empty-fields](./screenshots/screenshot2.jpg)
-![Web View - ERROR_inavild-email](./screenshots/screenshot3.jpg)
-![Mobile View](./screenshots/screenshot4.jpg)
-![Mobile View - ERROR](./screenshots/screenshot5.jpg)
+![Web View](./screenshots/screenshot1.png)
+![Web View - ERROR_empty-fields](./screenshots/screenshot2.png)
+![Web View - ERROR_inavild-email](./screenshots/screenshot3.png)
+![Mobile View](./screenshots/screenshot4.png)
+![Mobile View - ERROR](./screenshots/screenshot5.png)
 
 
 
