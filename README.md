@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/madalina1teaca/intro-component-with-signup-form-master)
+- Live Site URL:(https://mt-intro-component-with-signup-form.netlify.app/)
 
 ## My process
 
